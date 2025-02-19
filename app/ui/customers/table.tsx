@@ -8,8 +8,10 @@ import {
 
 export default async function CustomersTable({
   customers,
+  query,
 }: {
   customers: FormattedCustomersTable[];
+  query: string;
 }) {
   return (
     <div className="w-full">
